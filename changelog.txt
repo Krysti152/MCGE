@@ -8,8 +8,4 @@
 + added Tileset
 
 --- V1.2 ---
-- recoded core elementes (public variables, no class only)
-- GUI
-- added Camera
-- saving and loading Tileset from file .tileset
-- changed objects.hpp to separate .hpp files
+    ????
