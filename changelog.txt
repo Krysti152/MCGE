@@ -1,0 +1,15 @@
+--- V1.0 ---
+    default version
+
+--- V1.1 ---
++ added pref.ini file with preferences
++ added scripts
++ added animations (Frame, Animation, Animator)
++ added Tileset
+
+--- V1.2 ---
+- recoded core elementes (public variables, no class only)
+- GUI
+- added Camera
+- saving and loading Tileset from file .tileset
+- changed objects.hpp to separate .hpp files
