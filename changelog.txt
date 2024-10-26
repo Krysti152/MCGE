@@ -8,4 +8,16 @@
 + added Tileset
 
 --- V1.2 ---
-    ????
++ recoded core elementes (public variables, no class only)
++ reorganised objects.hpp to separate .hpp files
++ added separate .hpp files for each base function
++ some other small changes
++ added new classes: Camera
++ added GUI elements:
+    + GUI class
+    + Container class
+    + Image class
+    + Canvas class
+
+--- V1.3 ---
+    ???
