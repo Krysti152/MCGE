@@ -1,12 +1,13 @@
 #!/bin/bash
 
 echo "-----MeowCat Game Engine Installer-----"
-echo "SFML 2.6.0 libraries are needed to working properly."
 echo "V1.3"
+echo "SFML 2.6.0 libraries are needed to working properly."
 
 sudo cp -R Libraries/ /usr/include/MCGE/
+sudo mkdir /etc/MCGE/default_proj/
 sudo mkdir /etc/MCGE/
-sudo cp -R presets/default_proj/ /etc/MCGE/default_proj/
+sudo cp -R presets/default_proj/* /etc/MCGE/default_proj/
 sudo cp manager.sh /usr/bin/MCGE-man
 
 
