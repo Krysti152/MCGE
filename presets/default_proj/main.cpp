@@ -20,7 +20,7 @@ void start() {
 
 }
 
-void awake() {
+void init() {
 
 }
 
@@ -28,7 +28,7 @@ int main() {
 
 
 
-    gm::START(update,start,awake);
+    gm::START(update,start,init);
 
     return 0;
 }
